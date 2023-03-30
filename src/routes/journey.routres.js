@@ -4,3 +4,4 @@ import * as JourneyController from "../controller/journey.controller.js";
 export const journeyRouter = express.Router();
 
 journeyRouter.get("/", JourneyController.Index);
+journeyRouter.post("/create", JourneyController.Create);
