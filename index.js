@@ -1,6 +1,5 @@
 import express from "express";
 import dotenv from "dotenv";
-import Time from "cassandra-driver";
 import bodyParser from "body-parser";
 import {router} from "./src/routes/index.js"
 
