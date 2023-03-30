@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { systemRouter } from "./system.routers.js";
-import { journeyRouter } from "./journey.routres.js";
+import { journeyRouter } from "./journey.routers.js";
 
 export const router = Router();
 
