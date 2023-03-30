@@ -1,4 +1,4 @@
-import { connection } from "../../db_connection.js";
+import { connection } from "../config/db_connection.js";
 
 export const Index = async (req, res) => {
   try {

@@ -1,4 +1,4 @@
-import { connection } from "../../db_connection.js";
+import { connection } from "../config/db_connection.js";
 import Time from "cassandra-driver";
 
 const TimeUuid = Time.types.TimeUuid;
